@@ -4,7 +4,7 @@ import { Card, CardHeader, CardContent, Typography, Grid, Divider } from '@mater
 // import { ExpenseTrackerContext } from '../../context/context';
 import useStyles from './styles';
 import Form from './Form/Form';
-// import List from './List/List';
+import List from './List/List';
 // import InfoCard from '../InfoCard';
 
 const ExpenseTracker = () => {
@@ -25,7 +25,7 @@ const ExpenseTracker = () => {
       <CardContent className={classes.cardContent}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            {/* <List /> */}
+            <List/>
           </Grid>
         </Grid>
       </CardContent>
